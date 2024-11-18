@@ -15,7 +15,7 @@ body {
     background-color:white;
 }
 
-#otsikot {
+.otsikot {
     background-color: #8BE389;
     padding: 40px;
 }
@@ -34,7 +34,7 @@ h2 {
     font-size: 20px
 }
 
-p {
+.sisalto {
     color:#000000;
     text-align: center;
     font-family: Calibri;
@@ -47,12 +47,12 @@ p {
 </head>
 <body>
 
-<div id="otsikot">
+<div class="otsikot">
  <h1>PuuhaPiha</h1>
  <h2>Pihatöiden iloa koko perheelle!</h2>
 </div>
 
-<div id="sisalto">
+<div class="sisalto">
 <p>Tervetuloa PuuhaPihan verkkosivuille!
 <br><br> Nautitko pihatöistä yhtä paljon, kuin mekin? Myymälöistämme löydät kaiken tarvittavan puutarhan 
 <br>hoitoon ja ylläpitoon sekä aikuisille, että lapsille.
