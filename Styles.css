@@ -48,16 +48,16 @@ h2 {
 }
 
 .rivi {
-    display: flex;
+  display: flex;
+  gap: 20px;
 }
 
 .sarake {
-    flex: 50%;
-    padding: 10px;
-    height: 200px;
+  flex: 1;
+  padding: 10px;
 }
 
 .kuva {
-    width:"500";
-    height:"600";
+  max-width: 100%;
+  height: auto;
 }
