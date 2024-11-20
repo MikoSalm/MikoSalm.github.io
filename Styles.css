@@ -46,3 +46,18 @@ h2 {
     font-family: Rockwell;
     font-size: 20px
 }
+
+.rivi {
+    display: flex;
+}
+
+.sarake {
+    flex: 50%;
+    padding: 10px;
+    height: 200px;
+}
+
+.kuva {
+    width:"500";
+    height:"600";
+}
