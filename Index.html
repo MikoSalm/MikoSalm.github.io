@@ -24,6 +24,44 @@ content="width=device-width, initial-scale=1.0">
 <br><br> Olemme vuonna 2020 perustettu perheyritys, joka toimii pääkaupunkisedulla.</p>
 </div>
 <br>
+
+<style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    /* Create two equal columns that floats next to each other */
+    .column {
+      float: left;
+      width: 50%;
+      padding: 10px;
+      height: 300px; /* Should be removed. Only for demonstration */
+    }
+    
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    </style>
+
+<div class="row">
+    <div class="column" style="background-color:white">
+        <div class="linkit1">
+            <a href="Tuotteet.html"style="text-decoration: none"><h2>Tuotteet</h2></a>
+            <p>Tähän tuotteet.</p>         
+        </div>
+    </div>
+    <div class="column" style="background-color:white"> 
+        <div class="linkit2">
+            <a href="Yhteystiedot.html"style="text-decoration: none"><h2>Yhteystiedot</h2></a>
+            </div>
+            <p>Tähän yhteystiedot.</p>         
+    </div>
+  </div>
+
+
 <div class="linkit1">
     <a href="Tuotteet.html"style="text-decoration: none"><h2>Tuotteet</h2></a>         
 </div>
