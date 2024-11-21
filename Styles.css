@@ -62,14 +62,37 @@ h2 {
     height: auto; 
 }
 
+.kartta {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.aukiolo {
+    color:#000000;
+    font-family: Calibri;
+    font-size: 18px;
+    margin-top: 10px;
+    width: 100%;
+    display: flex; 
+    justify-content: center;
+}
+
+.paiva {
+    padding-right: 5px;
+}
+
 footer {
     font-family: Calibri;
     font-size: 18px;
     color: #000000;
-    display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
     background-color: #8BE389;
+    
 
 }
