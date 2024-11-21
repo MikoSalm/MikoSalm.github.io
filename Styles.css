@@ -61,3 +61,15 @@ h2 {
     max-width: 75%;
     height: auto; 
 }
+
+footer {
+    font-family: Calibri;
+    font-size: 18px;
+    color: #000000;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #8BE389;
+
+}
