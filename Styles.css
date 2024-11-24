@@ -34,7 +34,7 @@ nav ul li a {
 }
 
 nav ul li a:hover, nav ul li a:focus {
-    background-color: white;
+    background-color: #8BE389;
     font-weight: bold;
 }
 
