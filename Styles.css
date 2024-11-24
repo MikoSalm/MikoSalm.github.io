@@ -7,6 +7,42 @@ body {
     background-color:white;
 }
 
+nav {
+
+    top: 0;
+    width: 100%;
+    background-color: #e3f7e3;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    overflow: hidden;
+
+}
+
+
+nav ul li a {
+    display: block;
+    float: left;
+    padding: 10px 12px;
+    text-decoration: none;
+    font-family: Calibri;
+    color: black;
+    border-right: 1px solid #ddd;
+
+}
+
+nav ul li a:hover, nav ul li a:focus {
+    background-color: white;
+    font-weight: bold;
+}
+
+.active {
+    background-color: white;
+    font-weight: bold;
+}
+
 .otsikot {
     background-color: #8BE389;
     padding: 40px;
@@ -93,6 +129,5 @@ footer {
     padding-top: 20px;
     padding-bottom: 20px;
     background-color: #8BE389;
-    
 
 }
