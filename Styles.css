@@ -4,6 +4,7 @@
 }
 
 body {
+    
     background-color:white;
 }
 
@@ -122,6 +123,128 @@ h2 {
     padding-right: 5px;
 }
 
+/*Tuotteiden kuvat ja elementit*/
+.tuotteet-container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center; 
+    align-items: center;
+    margin: 0;
+  }
+
+  .tuotteet {
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+  }
+  
+  .tuotteet img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 15px;
+  }
+  
+  .tuotteet h3 {
+    margin: 10px 0;
+    font-size: 20px;
+    font-family: Rockwell;
+    color:#176322;
+  }
+  
+  .tuotteet p {
+    font-size: 15px;
+    color:#000000;
+    font-family: Calibri;
+  }
+  
+  .tuotteet:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    border-color: #aaa;
+  }
+
+/* Osta-nappula*/
+  .osta {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #176322; 
+    color: white;
+    font-family: Rockwell;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .osta:hover {
+    background-color: #8BE389; 
+    transform: scale(1.05); 
+  }
+
+
+
+/*Etusivun elementit*/
+.etusivu-container {
+    display: flex;
+    gap: 40px;
+    padding: 100px;
+    justify-content: center; 
+    align-items: center;
+    margin: 0;
+  }
+
+  .kuvat {
+    width: 500px;
+    padding: 20px;
+    text-align: center;
+    background-color: #8BE389; 
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+  }
+  
+  .kuvat img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 15px;
+  }
+  
+  .kuvat h3 {
+    margin: 10px 0;
+    font-size: 30px;
+    font-family: Rockwell;
+    color:#176322;
+  }
+  
+  .kuvat p {
+    font-size: 15px;
+    color:#000000;
+    font-family: Calibri;
+  }
+  
+  .kuvat:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    border-color: #aaa;
+  }
+
+
+  
+
 /*Footer*/
 footer {
     font-family: Calibri;
@@ -134,5 +257,8 @@ footer {
     padding-top: 20px;
     padding-bottom: 20px;
     background-color: #8BE389;
-
+    align-self: end;
+    
+    
+    
 }
