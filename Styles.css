@@ -67,6 +67,15 @@ h2 {
     text-align: center;
     font-family: Rockwell;
     font-size: 20px
+    
+}
+
+h4 {
+  color:#176322;
+  text-align: center;
+  font-family: Rockwell;
+  font-size: 16px
+  
 }
 
 /*Teksti*/
@@ -159,28 +168,20 @@ h2 {
     border-color: #aaa;
   }
 
-/* Osta-nappula*/
-  .osta {
+/* Tuotteen hinta*/
+  .hinta {
     display: inline-block;
     padding: 10px 20px;
     background-color: #176322; 
     color: white;
     font-family: Rockwell;
-    font-size: 12px;
+    font-size: 15px;
     font-weight: bold;
     text-transform: uppercase;
     border: none;
-    border-radius: 5px;
-    cursor: pointer;
+    border-radius: 50px;
     transition: background-color 0.3s ease, transform 0.3s ease;
   }
-  
-  .osta:hover {
-    background-color: #8BE389; 
-    transform: scale(1.05); 
-  }
-
-
 
 /*Etusivun elementit*/
 .etusivu-container {
@@ -260,3 +261,4 @@ footer {
       flex-direction: column;
   }
 }
+
