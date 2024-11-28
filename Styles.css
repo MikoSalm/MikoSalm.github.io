@@ -6,11 +6,13 @@
 body {
     
     background-color:white;
+    padding-bottom: 70px;
 }
 
 /*navigaatio*/
 nav {
     position: fixed;
+    z-index: 10000;
     top: 0;
     width: 100%;
     background-color: #e3f7e3;
