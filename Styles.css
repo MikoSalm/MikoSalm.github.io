@@ -36,13 +36,13 @@ nav ul li a {
 
 }
 
-/*navigaation hover*/
+/*Navigaation hover*/
 nav ul li a:hover, nav ul li a:focus {
     background-color: #8BE389;
     font-weight: bold;
 }
 
-/*aktiivinen navigaatio*/
+/*Aktiivinen navigaatio*/
 .active {
     background-color: white;
     font-weight: bold;
@@ -233,8 +233,6 @@ h4 {
     border-color: #aaa;
   }
 
-
-  
 
 /*Footer*/
 footer {
